@@ -1,7 +1,7 @@
 # 未来人物谈 | Future Personas Chat
 
-> 🌐 在线体验：https://luzhishenshenshen.github.io/futurepersona_llm_prompt_lab/
-> 
+> ⚠️ **需要自备 API Key**：这是一个前端 HTML 应用，需要你自己配置 DeepSeek 或其他 OpenAI 兼容服务的 API Key 才能运行。
+>
 > 一个基于 2035 年未来人物画像的 AI 角色扮演聊天室，支持 1v1 对话、群聊辩论、Prompt Lab 调试。
 
 ---
@@ -96,11 +96,13 @@
 
 ## 快速开始
 
-1. 打开 HTML 文件（或在线链接）
+1. 下载 `finance-personas-chat-v5-通用版.html`，直接用浏览器打开（无需服务器，无需安装）
 2. 在设置中配置你的 API Key（DeepSeek 或其他 OpenAI 兼容服务）
 3. 选择一个人物，开始聊天
 4. 尝试群聊模式，看人物之间如何互动
 5. 进入 Prompt Lab，调试或创建你自己的角色
+
+> 💡 **提示**：这是一个纯前端单文件应用，所有数据（包括 API Key）只存储在浏览器本地，不会上传到任何服务器。
 
 ---
 
