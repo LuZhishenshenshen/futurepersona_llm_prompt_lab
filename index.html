@@ -5542,10 +5542,10 @@ function updateFilterOptions() {
 
 /* ================= 初始化 ================= */
 loadSettings();
+applyLang(); // 先应用语言，再渲染内容
 renderGrid();
 renderGroupChatPersonaList();
 renderPromptLab();
-initApp();
 
 // 初始化语言切换按钮事件
 document.getElementById('lang-toggle').addEventListener('click', () => {
@@ -5553,8 +5553,8 @@ document.getElementById('lang-toggle').addEventListener('click', () => {
   setLang(newLang);
 });
 
-// 应用初始语言
-applyLang();
+// 应用初始语言（已在上方的初始化中调用）
+// applyLang();
 
 
 </script>
